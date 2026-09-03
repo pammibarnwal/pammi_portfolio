@@ -1,0 +1,833 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pammi's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      
+    </style>
+  </head>
+  <body>
+      <main>
+       <!---------- header section ---------> 
+       
+    <div class="header">
+            <nav>
+               <div class="container">
+              <div class="left">
+                  Portfolio  
+                </div>
+               
+                 <div class="right">
+                   <div class="hamburger" id="hamburger">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                   <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                   </ul> 
+                </div>
+                </div>
+            </nav>
+        </div>
+
+         <!---------- Home section ------------>
+
+    <div class="container">
+      <div class="firstSection" id="home">
+            <div class="leftSection">
+               Hi, My name is <span class="purple">Pammi</span> 
+               <div>and I am a Passionate</div> 
+                <!-- Element to contain animated typing -->
+             <span id="element"></span>
+               <div class="leftButtons">
+               
+                <a href="#skills" class="viewSkills">View Skills</a>
+                 
+                 <a href="#projects" class="viewWork">View Work</a>
+            </div>
+            </div>
+          
+            <div class="rightSection">
+                  <img src="images/pammiimage.jpeg" alt="">
+            </div>
+        </div>
+       </div>
+      <!-- ------------ About Section------------- -->
+
+     <div class="container">
+      <section class="aboutMe">
+        
+        <div class="developerImg">
+            <img src="images/woman_developer.png" alt="">
+        </div>
+
+        <div class="about" id="about">
+            <h1 class="main-heading">
+                About Me
+            </h1>
+         
+            <p>I am Passionate Web Developer and Front End Developer with 8 months of Experience creating modern Web applications, Desktop application using HTML, CSS, Javascript and Electron Js  </p>
+          
+            <div class="tab-titles">
+               <div class="tab-links active-link" onclick="openTab(event, 'skills')">Skills</div>
+               <div class="tab-links" onclick="openTab(event, 'experience')">Experience</div>
+               <div class="tab-links" onclick="openTab(event, 'education')">Education</div>
+            </div>
+            <div class="tab-contents">
+            <div id="skills" class="tab-content active-tab">
+            <ul>
+                <li><span class="purple1">Web Development</span><br>
+                Using HTML, CSS and Javascript</li>
+                <li><span class="purple1">App Development</span><br>Build Desktop App using HTML, CSS, Javascript and Electron Js</li>
+                <li><span class="purple1">Responsive Website</span><br>Build responsive website on mobile and desktop view</li>
+               
+            </ul>
+        </div>
+          <div id="experience" class="tab-content">
+        <p><span class="purple1">July 2025 – Present</span></p>
+        <p><strong>Web Developer</strong> | Blisstech Solutions Pvt Ltd, Delhi, India</p>
+     <ul>
+        <li>Developed responsive websites and desktop applications using HTML, CSS, JavaScript, and Electron.js</li>
+       <li>Collaborated with designers and backend developers to improve UI/UX</li>
+       <li>Implemented modern web design practices for better performance and usability</li>
+     </ul>
+   </div>
+
+     <div id="education" class="tab-content">
+        <p><span class="purple1">2012 – 2016</span></p>
+        <p><strong>Bachelor of Engineering (ECE)</strong></p>
+        <p>Poornima College of Engineering, Jaipur</p>
+        <p><strong>Score:</strong> 71.40%</p>
+    </div>
+            </div>
+        </div>
+       
+      </section>
+       </div>
+
+  
+    <div class="container">
+    <section class="build-section">
+  
+
+    <!-- Top Stats -->
+    <div class="stats-grid">
+      <div class="stat-card pink">
+         <div class="stat-icon">✦</div>
+        <div class="stat-content">
+          <h2>5+</h2>
+          <p>Projects</p>
+        </div>
+      </div>
+
+     <div class="stat-card blue">
+        <div class="stat-icon">⬢</div>
+        <div class="stat-content">
+          <h2>1+</h2>
+          <p>Year Exp.</p>
+        </div>
+      </div>
+
+       <div class="stat-card green">
+        <div class="stat-icon">⚡</div>
+        <div class="stat-content">
+          <h2>100+</h2>
+          <p>Responsive</p>
+        </div>
+      </div>
+  </section>
+   </div>
+
+       <!-- ---------services section--------- -->
+
+        <div class="container">
+     <section class="services" id="services">
+      <div class="service-heading">
+       <div class="main-heading">What I Build</div>
+       <img src="images/services.gif" alt="">
+     </div>
+
+      <!-- Service Cards -->
+
+    <div class="services-grid">
+
+    <!-- Frontend Development -->
+    <div class="service-card pink-card">
+   
+       <div class="service-icon">&lt;/&gt;</div>
+    
+      <h2 class="sub-heading">Frontend Development </h2>
+        <span class="service-tags pink-text">Angular • TypeScript • Bootstrap</span>
+         <div class="divider pink-bg"></div>
+         
+   
+      <p>
+       Build responsive, fast and interactive user interfaces using javascript, Bootstrap, Angular, TypeScript and modern UI practices for a smooth user experience across devices.
+      </p>
+       <button class="arrow-btn pink-btn">→</button>
+    </div>
+
+    <!-- Web Development -->
+    <div class="service-card blue-card">
+     
+      <div class="service-icon">🌐</div>
+      
+      <h2 class="sub-heading">Web Development</h2>
+       <span class="service-tags blue-text">Responsive • SEO-friendly • Cross-browser</span>
+
+     <div class="divider blue-bg"></div>
+    
+      <p>
+       Create complete, mobile-friendly websites with clean structure, optimized performance, and cross-browser compatibility.
+      </p>
+       <button class="arrow-btn blue-btn">→</button>
+    </div>
+
+  <!-- Desktop App -->
+    <div class="service-card green-card">
+    <!-- <i class="fa-brands fa-app-store"></i> --> 
+    
+      <div class="service-icon">🖥️</div>
+     
+      <h2 class="sub-heading">Desktop App Development</h2>
+      <span class="service-tags green-text">Electron.js • Dashboards • Productivity</span>
+     <div class="divider green-bg"></div>
+    
+      <p>
+       Develop desktop applications with Electron.js, focusing on intuitive dashboards, reusable components, and smooth functionality.
+      </p>
+      <button class="arrow-btn green-btn">→</button>
+    </div>
+  </div>
+</section>
+  </div>  
+      <!--  -----------projects section---------- -->
+
+        <div class="container">
+      <section id="projects">
+        <div class="project-heading" style="display:flex;">
+        <h1 class="main-heading">
+               Featured Projects
+        </h1>
+        <img src="images/projects.gif" alt="Projects">
+        </div>
+
+        <div class="card projectSummary">
+           Real-world frontend projects focused on responsive design, UI/UX enhancement, performance optimization, and component-based development.
+
+           Experience includes web applications, service platforms, collaboration tools, and Electron.js desktop applications.
+        </div>
+
+           
+  <div class="projects-list">
+<!--- Trustnode   -->
+   <div class="project-card trustnode">
+
+  <!-- Left side: Images -->
+  <div class="project-media">
+
+    <!-- Main image -->
+    <div class="main-image">
+      <img src="images/trustnode/trustnode_dashboard.png" alt="TrustNode Dashboard">
+    </div>
+
+    <!-- Additional screenshots -->
+    <div class="gallery">
+       <img src="images/trustnode/transaction_entry.png" alt="Transaction Screen">
+      
+      <img src="images/trustnode/bill_format.png" alt="Analytics Screen">
+   
+    </div>
+
+  </div>
+
+  <!-- Right side: Content -->
+  <div class="project-details">
+
+    <h2>TrustNode Ledger</h2>
+    <span class="role-badge">Frontend Developer • Electron.js</span>
+
+    <p class="project-summary">
+      Developed the frontend for a financial and transaction management desktop
+      application with dashboard interfaces, transaction workflows, and data
+      visualization features.
+    </p>
+
+    <h4>Key Contributions</h4>
+    <ul>
+      <li>Built dashboard and transaction screens</li>
+      <li>Created reusable UI components</li>
+      <li>Improved financial data readability</li>
+      <li>Designed workflow-oriented navigation</li>
+    </ul>
+
+    <div class="tech-stack">
+      <span>Electron.js</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+    <div class="project-buttons">
+     <a href="javascript:void(0)" class="btn-live" onclick="openTrustNodeVideo()">
+  <i class="fa-solid fa-play"></i>
+  View Demo
+</a>
+      <a href="#" class="btn-code">Case Study</a>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- BlissMeeting -->
+
+<div class="project-card blissmeeting-app">
+
+ <!--Left side: Content -->
+  <div class="project-details">
+
+    <h2>BlissMeeting</h2>
+    <span class="role-badge">Frontend Developer</span>
+
+    <p class="project-summary">
+     Developed responsive frontend components for a meeting and collaboration platform with emphasis on usability, visual consistency, and smooth interaction. Contributed to interface refinement and improved the overall user experience across different screen sizes.
+    </p>
+
+    <h4>Key Contributions</h4>
+    <ul>
+      <li>Built responsive meeting and collaboration UI components</li>
+      <li>Improved layout consistency and visual hierarchy</li>
+      <li>Enhanced user interaction and navigation flow</li>
+      <li>Optimized interfaces for desktop and mobile devices</li>
+    <!--   <li>Contributed to ongoing UI/UX improvements</li> -->
+    </ul>
+
+    <div class="tech-stack">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Bootstrap</span>
+    </div>
+
+    <div class="project-buttons">
+      <a href="https://blissmeeting.com/" class="btn-live"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+      <a href="#" class="btn-code">Case Study</a>
+    </div>
+
+  </div>
+
+   <!--  Right side: Images -->
+  <div class="project-media">
+
+    <!-- Main image -->
+    <div class="main-image">
+      <img src="images/blissmeeting/blissmeeting_screen.png" alt="blissmeeting_video_screen">
+    </div>
+
+    <!-- Additional screenshots -->
+    <div class="gallery">
+     <img src="images/blissmeeting/blissmeeting_screen2.png" alt="blissmeeting_video_screen2">
+      <img src="images/blissmeeting/blissmeeting_screen3.png" alt="blissmeeting_video_screen3">
+     
+    
+    </div>
+
+  </div>
+
+</div>
+
+ <!-- ServoJi -->
+
+      <div class="project-card servoji">
+
+  <!-- Left side: Images -->
+  <div class="project-media">
+
+    <!-- Main image -->
+    <div class="main-image">
+      <img src="images/servoji/servoji_main.png" alt="servoji_main">
+    </div>
+
+    <!-- Additional screenshots -->
+    <div class="gallery">
+      <img src="images/servoji/servoji2.png" alt="servoji_partner section">
+      <img src="images/servoji/servoji3.png" alt="servoji_partner section">
+   
+    </div>
+
+  </div>
+
+  <!-- Right side: Content -->
+  <div class="project-details">
+
+    <h2>Servoji</h2>
+    <span class="role-badge">Frontend Developer</span>
+
+    <p class="project-summary">
+     Contributed to a doorstep service management platform by developing responsive user interfaces and improving overall usability. Worked on service listing, booking-related pages, and mobile-friendly layouts to deliver a consistent experience across devices.
+    </p>
+
+    <h4>Key Contributions</h4>
+    <ul>
+   
+      <li>Improved UI consistency and component alignment</li>
+      <li>Enhanced mobile responsiveness and touch interactions</li>
+      <li>Integrated dynamic content with frontend logic</li>
+      <li>Collaborated with UI/UX designer to refine user experience</li>
+    </ul>
+
+    <div class="tech-stack">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+       <span>Bootstrap</span>
+    </div>
+
+    <div class="project-buttons">
+      <a href="https://www.servoji.com/" target="_blank" class="btn-live"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+      <a href="#" class="btn-code">Case Study</a>
+    </div>
+
+  </div>
+
+</div>
+ 
+
+<!--   Blisstech solutions website  -->
+<div class="project-card blisstech">
+
+ <!--Left side: Content -->
+  <div class="project-details">
+
+    <h2>Blisstech Solutions Website</h2>
+    <span class="role-badge">Frontend Developer</span>
+
+    <p class="project-summary">
+     Developed and maintained the official company website with a modern responsive layout,
+      optimized performance, and clean UI to showcase services and products effectively.
+    </p>
+
+
+    <h4>Key Contributions</h4>
+    <ul>
+        <li>Fully responsive design</li>
+        <li>Modern landing page UI</li>
+        <li>Optimized images and performance</li>
+        <li>Service and product showcase</li>
+    </ul>
+
+    <div class="tech-stack">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Bootstrap</span>
+    </div>
+
+    <div class="project-buttons">
+      <a href="https://www.blisstechsolutions.in/"    target="_blank" class="btn-live"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+      <a href="#" class="btn-code">Case Study</a>
+    </div>
+
+  </div>
+
+   <!--  Right side: Images -->
+  <div class="project-media">
+
+    <!-- Main image -->
+    <div class="main-image">
+      <img src="images/blisstech/blisstech1.png" alt="blisstech_nav page">
+    </div>
+
+    <!-- Additional screenshots -->
+    <div class="gallery">
+     <img src="images/blisstech/blisstech2.png" alt="blisstech_products">
+      <img src="images/blisstech/blisstech3.png" alt="blisstech_payment">
+     
+    
+    </div>
+
+  </div>
+
+</div>
+
+
+<!--  Project Management -->
+<div class="project-card project-management">
+
+  <!-- Left side: Content -->
+   <div class="project-media">
+
+    <!-- Main screenshot -->
+    <div class="main-image">
+      <img
+        src="images/employee/employee_dashboard.png"
+        alt="Project Management Dashboard"
+      >
+    </div>
+
+    <!-- Additional screenshots -->
+    <div class="gallery">
+
+      <img
+        src="images/employee/employee_project.png"
+        alt="Project Management Project List"
+      >
+
+      <img
+        src="images/employee/new_project.png"
+        alt="Project Management Project Form"
+      >
+
+    </div>
+
+  </div>
+  <!-- Right side: Images -->
+  <div class="project-details">
+
+    <h2>Project Management System</h2>
+
+    <span class="role-badge">Frontend Developer · Angular</span>
+
+    <p class="project-summary">
+      Developed a responsive project management application using Angular to
+      manage projects, employees, departments, and project-related information.
+      Implemented reusable UI components, form validation, API integration,
+      and CRUD workflows to create an efficient and user-friendly management system.
+    </p>
+
+    <h4>Key Contributions</h4>
+
+    <ul>
+      <li>Developed responsive project management dashboards and data tables</li>
+      <li>Implemented project creation, editing, viewing, and deletion workflows</li>
+      <li>Built reactive forms with validation and dynamic form controls</li>
+      <li>Integrated REST APIs for project and employee data management</li>
+      <li>Implemented reusable Angular components and services</li>
+      <li>Added search, filtering, and dynamic data rendering</li>
+    </ul>
+
+    <div class="tech-stack">
+      <span>Angular</span>
+      <span>TypeScript</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Bootstrap</span>
+      <span>REST API</span>
+    </div>
+
+    <div class="project-buttons">
+      <a href="javascript:void(0)" class="btn-live" onclick="openemployeeVideo()">
+  <i class="fa-solid fa-play"></i>
+  View Demo
+</a>
+
+      <a href="#" class="btn-code">
+        Case Study
+      </a>
+    </div>
+
+  </div>
+
+
+  
+  
+
+</div>
+
+
+
+
+
+    
+   
+   
+
+   
+    
+
+</div>
+<!-- 
+<div class="seeMore">
+    <a class="seemoreBtn" id="toggleBtn">See More</a>
+    </div>
+    -->
+</section>
+      </div>
+
+<!-- TrustNode Video Modal -->
+<div id="trustnodeVideoModal" class="video-modal">
+
+  <div class="video-modal-content">
+
+    <button class="close-video" onclick="closeTrustNodeVideo()">
+      &times;
+    </button>
+
+    <video id="trustnodeVideo" controls  preload="metadata"
+      playsinline>
+      <source src="./images/trustnode_video/trustnode_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+
+</div>
+
+<!-- TrustNode Video Modal -->
+<div id="employeeVideoModal" class="video-modal">
+
+  <div class="video-modal-content">
+
+    <button class="close-video" onclick="closeemployeeVideo()">
+      &times;
+    </button>
+
+    <video id="employeeVideo" controls  preload="metadata"
+      playsinline>
+      <source src="./images/employee_management_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+
+</div>
+
+     <!------------ contact section ------------>
+     
+     <div class="container">
+     <div id="contact">
+       <div class="row">
+        <div class="contact-left">
+          <h1 class="main-heading">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i> Pammibarnwal665@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 7891573026</p>
+          <div class="social-icons">
+          
+            <a href="https://www.linkedin.com/in/pammi-barnwal-603b792a2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <a href="images/pammi_resume.pdf" class="downloadBtn" download>Download CV</a> 
+        </div>
+        <div class="contact-right">
+       
+          <form id="contactForm"
+      action="https://script.google.com/macros/s/AKfycbxFmyF2LKzgWkbnERScJ7cb0Sm9I64sjUW8zgLFn5HJUbZCccg6WfeT2vj_6jzRgHKdOw/exec"
+      method="POST"
+      target="hidden_iframe">
+
+  <input type="text" name="name" placeholder="Your Name" class="form-control" required>
+  <input type="email" name="email" placeholder="Your Email" class="form-control" required>
+  <textarea name="message" rows="6" placeholder="Your Message" class="form-control" required></textarea>
+
+  <button type="submit" class="submitBtn">Submit</button>
+  <p id="formMsg"></p>
+</form>
+
+<!-- hidden iframe -->
+<iframe name="hidden_iframe" style="display:none;"></iframe>
+        </div>
+       </div>
+     </div>
+    </div>
+    <footer class="footer-glass text-center">
+  <div class="container">
+    
+    <h5 class="footer-name">Pammi Kumari</h5>
+    
+    <p class="footer-role">Frontend Developer</p>
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+      <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="www.linkedin.com/in/pammi-barnwal-603b792a2" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="copyright">
+    Copyright © 2026 Pammi Kumari. Built with ❤️ using HTML, CSS & JavaScript.
+    </p>
+
+  </div>
+</footer>
+    
+    
+
+
+
+
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!-- cdn for typed.js -->
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Front End Developer.'],
+      typeSpeed: 50,
+    });
+
+
+   /* js for tab buttons */
+  
+function openTab(event, tabName){
+    let tabLinks = document.getElementsByClassName("tab-links");
+    let tabContents = document.getElementsByClassName("tab-content");
+
+    // remove active class from all
+    for(let link of tabLinks){
+        link.classList.remove("active-link");
+    }
+
+    for(let content of tabContents){
+        content.classList.remove("active-tab");
+    }
+
+    // add active to clicked tab
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabName).classList.add("active-tab");
+    
+}
+
+/* js for see more button 
+const hiddenCard = document.getElementById("blissmeeting");
+const toggleBtn = document.getElementById("toggleBtn");
+
+toggleBtn.addEventListener("click", () => {
+
+  if(hiddenCard.style.display === "none" || hiddenCard.style.display === ""){
+     hiddenCard.style.display = "block";
+     toggleBtn.innerText = "See Less"; 
+  }
+  else{
+    hiddenCard.style.display = "none";
+    toggleBtn.innerText = "See More";
+  }
+});
+*/
+/* Hamburger menu toggle */
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.querySelector(".header nav ul");
+
+hamburger.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+});
+
+/* contact form */
+/*
+const form = document.getElementById("contactForm");
+const msg = document.getElementById("formMsg");
+
+form.addEventListener("submit", async function(e) {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+  console.log(formData);
+
+  msg.innerHTML = "Sending...";
+  msg.style.color = "orange";
+
+  try {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbxFmyF2LKzgWkbnERScJ7cb0Sm9I64sjUW8zgLFn5HJUbZCccg6WfeT2vj_6jzRgHKdOw/exec", {
+      method: "POST",
+      body: formData   // ✅ IMPORTANT (no headers)
+    });
+
+    if (response.ok) {
+      msg.innerHTML = "Message sent successfully ✅";
+      msg.style.color = "lightgreen";
+      form.reset();
+    } else {
+      msg.innerHTML = "Failed to send ❌";
+      msg.style.color = "red";
+    }
+
+  } catch (error) {
+    msg.innerHTML = "Error sending ❌";
+    msg.style.color = "red";
+    console.error(error);
+  }
+}); */
+
+
+
+const form = document.getElementById("contactForm");
+const msg = document.getElementById("formMsg");
+
+form.addEventListener("submit", function() {
+  msg.innerHTML = "Message sent successfully ✅";
+  msg.style.color = "lightgreen";
+
+  setTimeout(() => {
+    form.reset();
+      msg.innerHTML = "";   // ✅ clear message
+  }, 3000);
+});
+
+// js for trustnode video 
+function openTrustNodeVideo() {
+  const modal = document.getElementById("trustnodeVideoModal");
+  const video = document.getElementById("trustnodeVideo");
+
+  modal.style.display = "flex";
+  video.load();
+
+  video.play().catch(error => {
+    console.log("Video play error:", error);
+  });
+}
+
+function closeTrustNodeVideo() {
+  const modal = document.getElementById("trustnodeVideoModal");
+  const video = document.getElementById("trustnodeVideo");
+
+  video.pause();
+  video.currentTime = 0;
+
+  modal.style.display = "none";
+}
+
+
+// js for employeeManagement video 
+function openemployeeVideo() {
+  const modal = document.getElementById("employeeVideoModal");
+  const video = document.getElementById("employeeVideo");
+
+  modal.style.display = "flex";
+  video.load();
+
+  video.play().catch(error => {
+    console.log("Video play error:", error);
+  });
+}
+
+function closeemployeeVideo() {
+  const modal = document.getElementById("employeeVideoModal");
+  const video = document.getElementById("employeeVideo");
+
+  video.pause();
+  video.currentTime = 0;
+
+  modal.style.display = "none";
+}
+
+
+
+  </script>
+  </body>
+</html>
